@@ -1,0 +1,16 @@
+{
+  "name": "arras-ultra500",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --max-old-space-size=12288 server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "msgpackr": "^1.11.2",
+    "https-proxy-agent": "^7.0.6",
+    "socks-proxy-agent": "^8.0.5",
+    "node-fetch": "^3.3.2"
+  }
+}
